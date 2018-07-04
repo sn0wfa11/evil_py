@@ -11,7 +11,7 @@ https://github.com/sn0wfa11
 ```
 msf > handler -p python/meterpreter/reverse_tcp -H <Your LHOST> -P <Your LPORT>
 ```
-- Install the package compile dependencies
+- Install the package build process dependencies
 ```
 python -m pip install --user --upgrade setuptools wheel
 ```
